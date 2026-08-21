@@ -20,3 +20,4 @@ This repository contains a static reporting snapshot. Reconcile source totals an
 - `retail-metrics.js` standardizes common calculations across the dashboard suite.
 - `METRIC_DICTIONARY.md` records the approved KPI definitions.
 - `npm test` validates the HTML and formula contracts.
+- The responsive executive UI layer improves hierarchy, navigation, KPI cards, analytical tables, and accessible focus behavior without changing QTD logic.
