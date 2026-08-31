@@ -2,18 +2,18 @@ globalThis.DASHBOARD_CONFIG = Object.freeze({
   id: "quarter-to-date",
   title: "Boardroom Intelligence — Quarter to Date",
   reporting: Object.freeze({
-    label: "FY26–27 · Q4 JAS · Through Wk8",
+    label: "FY26–27 · Q4 JAS · Through Wk9",
     quarter: "JAS",
-    currentPeriod: "Through Wk8",
+    currentPeriod: "Through Wk9",
     periodUnit: "quarter-to-date"
   }),
   governance: Object.freeze({
-    source: "source file.xlsx · QTD weekly master",
-    dataThrough: "Wk8",
-    published: "25 Aug 2026",
+    source: "Validated QTD weekly master",
+    dataThrough: "Wk9",
+    published: "31 Aug 2026",
     expectedStores: 69,
     expectedArms: 15
   }),
-  benchmarks: Object.freeze({ loanAttachPct: 25, tradeInPct: 10 }),
+  benchmarks: Object.freeze({ loanAttachPct: 25, tradeInPct: 20 }),
   dataClassification: "Internal business reporting"
 });
