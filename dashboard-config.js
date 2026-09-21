@@ -2,15 +2,15 @@ globalThis.DASHBOARD_CONFIG = Object.freeze({
   id: "quarter-to-date",
   title: "Boardroom Intelligence — Quarter to Date",
   reporting: Object.freeze({
-    label: "FY26–27 · Q4 JAS · Through Wk9",
+    label: "FY26–27 · Q4 JAS · Through Wk12",
     quarter: "JAS",
-    currentPeriod: "Through Wk9",
+    currentPeriod: "Through Wk12",
     periodUnit: "quarter-to-date"
   }),
   governance: Object.freeze({
     source: "Validated QTD weekly master",
-    dataThrough: "Wk9",
-    published: "31 Aug 2026",
+    dataThrough: "Wk12",
+    published: "21 Sep 2026",
     expectedStores: 69,
     expectedArms: 15
   }),
